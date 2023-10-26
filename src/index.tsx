@@ -1,16 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { PrimeReactProvider } from 'primereact/api';
+
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import "./index.scss"
+import './index.css'
+import "primereact/resources/themes/lara-light-indigo/theme.css";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <PrimeReactProvider>
+      <App />
+    </PrimeReactProvider>
   </React.StrictMode>
 );
 

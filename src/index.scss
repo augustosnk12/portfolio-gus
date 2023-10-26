@@ -1,14 +1,17 @@
 * {
-  margin: 0;
   padding: 0;
   box-sizing: border-box;
-  max-width: 1080px;
+}
+
+:root {
+  --background: #131F24;
+  --header-text: #DCE6EC;
 }
 
 //accessibility
 html {
     @media (max-width: 1080px) {
-        font-size: 93.75%; 
+        font-size: 93.75%;
     }
 
     @media (max-width: 720px) {
@@ -16,6 +19,13 @@ html {
     }
 }
 
+body {
+  background: var(--background);
+  max-width: 1080px;
+  margin: 0 auto !important;
+}
+
 body, button {
     font-family: 'Roboto', sans-serif;
+
 }
