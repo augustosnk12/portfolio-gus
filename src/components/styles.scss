@@ -1,49 +1,63 @@
 .gus-logo {
-  font-family: 'Gluten', sans-serif;
+	font-family: 'Gluten', sans-serif;
 }
 
 .header {
-  color: var(--header-text);
-  font-family: 'Nunito', sans-serif;
+	color: var(--header-text);
+	font-family: 'Nunito', sans-serif;
 
-  .menu {
-    display: none;
-  }
+	.menu {
+		display: none;
+	}
 
-  img {
-    fill: var(--header-text);
-  }
+	img {
+		fill: var(--header-text);
+	}
 
-  a {
-    transition: border-bottom 0.1s;
+	a {
+		transition: border-bottom 0.1s;
 
-    &:hover {
-      border-bottom: 2px solid var(--header-text);
-    }
-  }
+		&:hover {
+			border-bottom: 2px solid var(--header-text);
+		}
+	}
 
-  @media (max-width: 700px) {
-      .items-menu {
-        display: none;
-      }
-      .menu {
-        display: inherit;
-      }
-  }
+	@media (max-width: 700px) {
+		.items-menu {
+			display: none;
+		}
+		.menu {
+			display: inherit;
+		}
+	}
 }
 
 //primereact
 
 .p-menu {
-  padding: 10px !important;
+	padding: 10px !important;
 
-  ul {
-    margin-bottom: -15px;
-  }
+	ul {
+		margin-bottom: -15px;
+	}
 
-  .p-menuitem a {
-    font-size: 1.2rem !important;
-    font-family: "Nunito", sans-serif;
-    margin-bottom: 12px;
+	.p-menuitem a {
+		font-size: 1.2rem !important;
+		font-family: 'Nunito', sans-serif;
+		margin-bottom: 12px;
+	}
+}
+
+.title-header {
+	color: var(--header-text);
+
+	@media (max-width: 700px) {
+		.first-title span {
+			font-size: 32px;
+		}
+	}
+
+  .second-title {
+    color: var(--sub-header-text);
   }
 }
