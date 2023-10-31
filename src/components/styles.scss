@@ -14,6 +14,10 @@
 		fill: var(--header-text);
 	}
 
+	.svg-img img {
+		fill: var(--header-text);
+	}
+
 	a {
 		transition: border-bottom 0.1s;
 
@@ -56,8 +60,12 @@
 			font-size: 32px;
 		}
 	}
+}
 
-  .second-title {
-    color: var(--sub-header-text);
-  }
+.second-title {
+	color: var(--sub-header-text);
+}
+
+.about-body-title {
+		color: var(--header-text);
 }
