@@ -5,6 +5,7 @@ import { Contact } from './components/Contact'
 import { Work } from './components/Work'
 import { About } from './components/About'
 import { UIStore } from './utils/UIStore'
+import { Footer } from './components/Footer'
 
 import 'tailwindcss/tailwind.css';
 
@@ -26,7 +27,7 @@ function App() {
     <div className="App">
       <Header />
       {currentPage}
-      ovo
+      <Footer />
     </div>
   );
 }

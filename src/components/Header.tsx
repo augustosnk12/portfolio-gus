@@ -28,7 +28,7 @@ export function Header() {
   return (
     <>
       <div className='header flex justify-between	mt-8 items-center mr-5 ml-5'>
-        <h4 className='gus-logo text-[48px]'>GUS</h4>
+        <h4 className='gus-logo text-[48px] cursor-pointer' onClick={() => handleChangePage('About')}>GUS</h4>
 
         <div className='gap-x-[2.75rem] flex text-[24px] items-menu'>
           <span className='cursor-pointer' onClick={() => handleChangePage('About')}>Sobre</span>

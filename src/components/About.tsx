@@ -11,14 +11,14 @@ export function About() {
 					<span>Olá, {saudacao()}!</span> <br />
 					<span>Eu sou o Augusto</span>
 				</div>
-				<span className='grid grid-cols-1 md:grid-cols-2 sm:grid-cols-2 xs:grid-cols-2 mt-3 text-[20px] second-title'>
+				<span className='grid grid-cols-1 md:grid-cols-2 sm:grid-cols-2 xs:grid-cols-2 mt-3 text-[20px] second-title font-semibold'>
 					Com {yearWorkingAsProgrammer()} anos de experiência, atualmente trabalho desenvolvendo soluções usando a stack do Javascript
 				</span>
 			</div>
 
 			<div className='about-body mt-[7rem] text-center'>
 				<span className='about-body-title text-[40px] font-medium'>Skillset</span> < br />
-				<span className='text-[20px] second-title'>Eis um resumo das tecnologias às quais eu tenho um chamego</span>
+				<span className='text-[20px] second-title font-semibold'>Eis um resumo das tecnologias às quais eu tenho um chamego</span>
 
 				<div className='flex justify-between'>
 					<SkillIcon icon='react' link='https://react.dev/' />
