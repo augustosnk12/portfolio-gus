@@ -11,7 +11,7 @@ export function Work() {
 
         <div className='mt-[10rem]'>
             <WorkCard
-              imgPath='/work-portfolio.jpg'
+              imgPath='/workPortfolio.jpg'
               project='Este projeto'
               description='Portfólio para abrigar todos os meus outros trabalhos'
               technologies={['ReactJS', 'TailwindCSS', 'EmailJS', 'Vercel']}
