@@ -14,7 +14,7 @@ export function Work() {
               imgPath='/work-portfolio.jpg'
               project='Este projeto'
               description='Portfólio para abrigar todos os meus outros trabalhos'
-              technologies={['ReactJS', 'TailwindCSS']}
+              technologies={['ReactJS', 'TailwindCSS', 'EmailJS', 'Vercel']}
             />
         </div>
       </div>
