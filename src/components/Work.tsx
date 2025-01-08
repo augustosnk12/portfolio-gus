@@ -14,7 +14,17 @@ export function Work() {
               imgPath='/workPortfolio.jpg'
               project='Este projeto'
               description='Portfólio para abrigar todos os meus outros trabalhos'
-              technologies={['ReactJS', 'TailwindCSS', 'EmailJS', 'Vercel']}
+              technologies={['ReactJS', 'TailwindCSS', 'EmailJS']}
+            />
+        </div>
+
+        <div className='mt-[10rem]'>
+            <WorkCard
+              imgPath='/where-am-i.png'
+              project='Where am I?'
+              description='Website que exibe os locais onde minha empresa atua'
+              technologies={['NextJS', 'TailwindCSS', 'Leaflet']}
+              link='https://where-am-i-geoapp.vercel.app/'
             />
         </div>
       </div>
