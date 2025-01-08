@@ -18,26 +18,28 @@ export function About() {
 
 			<div className='about-body mt-[7rem] text-center'>
 				<span className='about-body-title text-[40px] font-medium'>Skillset</span> < br />
-				<span className='text-[20px] second-title font-semibold'>Eis um resumo das tecnologias às quais eu tenho um chamego</span>
+				<span className='text-[20px] second-title font-semibold'>Eis um resumo das tecnologias que eu uso, ou usei em algum momento na história...</span>
 
 				<div className='flex justify-between'>
+					<SkillIcon icon='nextjs' link='https://nextjs.org/' />
 					<SkillIcon icon='react' link='https://react.dev/' />
-					<SkillIcon icon='nodejs' link='https://nodejs.org/' />
-					<SkillIcon icon='adonis' link='' />
-					<SkillIcon icon='nextjs' link='' />
+					<SkillIcon icon='react-native' link='https://reactnative.dev/' />
+					<SkillIcon icon='flutter' link='https://flutter.dev/' />
 				</div>
 
-				<div className='flex justify-between'>
-					<SkillIcon icon='js' link='https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/' />
-					<SkillIcon icon='html5' link='https://developer.mozilla.org/pt-BR/docs/Web/HTML/' />
-					<SkillIcon icon='css3' link='https://developer.mozilla.org/pt-BR/docs/Web/CSS/' />
-					<SkillIcon icon='aws' link='https://aws.amazon.com/pt/' />
+				<div className='flex justify-evenly'>
+					<SkillIcon icon='nestjs' link='https://nestjs.com/' />
+					<SkillIcon icon='nodejs' link='https://nodejs.org/' />
 				</div>
 
 				<div className='flex justify-between'>
 					<SkillIcon icon='mysql' link='https://www.mysql.com/' svgClass='svg-img' />
 					<SkillIcon icon='mongodb' link='https://www.mongodb.com/' />
 					<SkillIcon icon='firebase' link='https://firebase.google.com/?hl=pt' />
+				</div>
+
+				<div className='flex justify-center'>
+					<SkillIcon icon='aws' link='https://aws.amazon.com/pt/' />
 				</div>
 			</div>
 		</div>
