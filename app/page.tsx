@@ -645,6 +645,14 @@ function ExperienceSection({ isDarkMode, t }: any) {
               index={0}
               isVisible={isVisible}
             />
+            <ExperienceCard
+              isDarkMode={isDarkMode}
+              job={t.experience.jobs.ttravel}
+              skills={["React.js", "TypeScript", "Tailwind CSS"]}
+              index={1}
+              isVisible={isVisible}
+              link="https://ttravel2.netlify.app/"
+            />
           </div>
         </div>
       </div>
@@ -652,10 +660,19 @@ function ExperienceSection({ isDarkMode, t }: any) {
   );
 }
 
-function ExperienceCard({ isDarkMode, job, skills, index, isVisible }: any) {
+function ExperienceCard({
+  isDarkMode,
+  job,
+  skills,
+  index,
+  isVisible,
+  link,
+}: any) {
   return (
     <Card
       className={`transition-all duration-700 hover:scale-[1.02] ${
+        link ? "cursor-pointer group" : ""
+      } ${
         isDarkMode
           ? "bg-gray-900 border-gray-800 hover:border-gray-600"
           : "bg-white border-gray-200 hover:border-gray-400 shadow-lg hover:shadow-xl"
@@ -667,6 +684,7 @@ function ExperienceCard({ isDarkMode, job, skills, index, isVisible }: any) {
           : "opacity-0 translate-x-10"
       }`}
       style={{ transitionDelay: `${index * 0.2}s` }}
+      onClick={() => link && window.open(link, "_blank")}
     >
       <CardHeader className="pb-4 sm:pb-6">
         <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start space-y-2 sm:space-y-0">
@@ -686,6 +704,15 @@ function ExperienceCard({ isDarkMode, job, skills, index, isVisible }: any) {
               {job.period}
             </CardDescription>
           </div>
+          {link && (
+            <ExternalLink
+              className={`h-5 w-5 sm:h-6 sm:w-6 transition-colors duration-300 ${
+                isDarkMode
+                  ? "text-gray-400 group-hover:text-white"
+                  : "text-gray-500 group-hover:text-gray-900"
+              }`}
+            />
+          )}
         </div>
       </CardHeader>
       <CardContent className="pt-0">
