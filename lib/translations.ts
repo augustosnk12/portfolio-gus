@@ -32,6 +32,14 @@ export const translations = {
           description:
             "This portfolio itself which displays my skills and projects.",
         },
+        ttravel: {
+          title: "TTravel 2.0",
+          company: "Personal Project",
+          period: "2026",
+          location: "Remote",
+          description:
+            "A modern fuel cost calculator for road trips featuring route planning, consumption analysis, and cost splitting among travelers.",
+        },
         frontend: {
           title: "Frontend Developer",
           company: "Startup Inc",
@@ -137,6 +145,14 @@ export const translations = {
           location: "Remoto",
           description:
             "Este Portfolio, que exibe minhas habilidades e projetos.",
+        },
+        ttravel: {
+          title: "TTravel 2.0",
+          company: "Projeto Pessoal",
+          period: "2026",
+          location: "Remoto",
+          description:
+            "Uma calculadora moderna de custos de combustível para viagens, com planejamento de rota, análise de consumo e divisão de gastos.",
         },
         frontend: {
           title: "Desenvolvedor Frontend",
@@ -247,6 +263,14 @@ export const translations = {
           description:
             "Este portafolio, que muestra mis habilidades y proyectos.",
         },
+        ttravel: {
+          title: "TTravel 2.0",
+          company: "Proyecto Personal",
+          period: "2026",
+          location: "Remoto",
+          description:
+            "Una calculadora moderna de costes de combustible para viajes con planificación de rutas, análisis de consumo y división de gastos.",
+        },
         frontend: {
           title: "Desarrollador Frontend",
           company: "Startup Inc",
@@ -356,6 +380,14 @@ export const translations = {
           location: "Remote",
           description:
             "Questo portfolio, che mostra le mie competenze e i miei progetti.",
+        },
+        ttravel: {
+          title: "TTravel 2.0",
+          company: "Progetto Personale",
+          period: "2026",
+          location: "Remoto",
+          description:
+            "Un moderno calcolatore dei costi del carburante per viaggi, con pianificazione del percorso, analisi dei consumi e divisione delle spese.",
         },
         frontend: {
           title: "Sviluppatore Frontend",
